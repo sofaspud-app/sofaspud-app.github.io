@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help — SofaSpud</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <a href="./">SofaSpud</a>
+    <nav><a href="support.html">Help</a><a href="privacy.html">Privacy</a></nav>
+  </header>
+
+  <h1>Help</h1>
+
+  <h2>My computer isn't under "Nearby"</h2>
+  <ul>
+    <li>Make sure SofaSpud is running on the computer (its icon is in the Mac's menu bar, or by the PC's clock) and that the phone is on the same Wi-Fi.</li>
+    <li>On the iPhone: Settings → Privacy &amp; Security → Local Network → turn on SofaSpud.</li>
+    <li>On a Mac: System Settings → Privacy &amp; Security → Local Network → turn on SofaSpud Host.</li>
+    <li>You can always pair by scanning the QR code, or with <em>Add a computer → Enter an address instead</em>.</li>
+  </ul>
+
+  <h2>"That code didn't work"</h2>
+  <p>Codes work once, for 10 minutes. Open <em>Pair an iPhone</em> on the computer again for a fresh one. After five wrong tries the computer shows a new code.</p>
+
+  <h2>I see the Mac's wallpaper but no windows, or I can't click</h2>
+  <p>macOS needs two permissions: System Settings → Privacy &amp; Security → <strong>Screen &amp; System Audio Recording</strong> and <strong>Accessibility</strong> → turn on SofaSpud Host. Then quit and reopen SofaSpud Host.</p>
+
+  <h2>Using it away from home</h2>
+  <p>SofaSpud connects directly, so away from home you need a VPN that reaches your home network. <a href="https://tailscale.com">Tailscale</a> is free for personal use: install it on the computer and the phone with the same account, then pair once at home. SofaSpud uses Tailscale automatically when you're out.</p>
+
+  <h2>Game controllers (Windows)</h2>
+  <p>Connect a controller to your iPhone (Bluetooth), open your PC in SofaSpud and turn on game mode. Controllers need the free ViGEmBus driver on the PC. If you ticked <em>Game controllers</em> when installing, it sets itself up the first time you use one. If not, click the SofaSpud icon by the PC's clock → <em>Turn on game controllers</em>.</p>
+
+  <h2>No sound</h2>
+  <p>Tap the speaker button in SofaSpud's menu while connected. On a Mac, sound needs the Screen &amp; System Audio Recording permission.</p>
+
+  <h2>Removing SofaSpud from a computer</h2>
+  <p>Mac: quit SofaSpud Host from its menu, then move it from Applications to the Trash. Windows: Settings → Apps → SofaSpud → Uninstall. To stop one phone from connecting, use <em>Paired iPhones → Forget</em> on the computer.</p>
+
+  <h2>Still stuck?</h2>
+  <p>Open an issue at <a href="https://github.com/sofaspud-app/sofaspud-app.github.io/issues">github.com/sofaspud-app/sofaspud-app.github.io/issues</a> and say what you see. Please don't include passwords or anything private.</p>
+
+  <footer>SofaSpud · <a href="support.html">Help</a> · <a href="privacy.html">Privacy</a></footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy — SofaSpud</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <a href="./">SofaSpud</a>
+    <nav><a href="support.html">Help</a><a href="privacy.html">Privacy</a></nav>
+  </header>
+
+  <h1>Privacy</h1>
+  <p class="lead">Short version: SofaSpud doesn't collect anything. Your screen, sound and typing go only between your phone and your own computer, encrypted.</p>
+
+  <h2>What SofaSpud collects</h2>
+  <p>Nothing. The SofaSpud iPhone app and the SofaSpud helpers for Mac and Windows have no accounts, no analytics, no advertising and no tracking, and they don't send anything to us or to anyone else.</p>
+
+  <h2>What goes where</h2>
+  <ul>
+    <li><strong>Your computer's picture, sound and clipboard</strong> go from your computer straight to your paired iPhone. <strong>Your taps, typing and controller</strong> go from your iPhone straight to your computer. None of it passes through our servers — there aren't any.</li>
+    <li>All of it is <strong>encrypted end to end</strong> (Curve25519 and AES-GCM). Only an iPhone you have paired, using a code shown on the computer, can connect.</li>
+    <li><strong>Pairing keys and settings</strong> stay on your devices: on the iPhone (in its Keychain and the app's settings) and on the computer (protected by macOS's Keychain or Windows' data protection).</li>
+  </ul>
+
+  <h2>Permissions the app asks for</h2>
+  <ul>
+    <li><strong>Local network</strong> — to find and connect to your computer at home.</li>
+    <li><strong>Camera</strong> (optional) — only to scan the pairing code. Nothing is recorded or saved.</li>
+    <li><strong>Face ID</strong> (optional) — to lock the app. Handled by iOS; SofaSpud never sees your face data.</li>
+    <li>On the computer: <strong>Screen Recording</strong> and <strong>Accessibility</strong> (Mac) so your phone can see the screen and use the mouse and keyboard. They're used only while your phone is connected.</li>
+  </ul>
+
+  <h2>Third parties</h2>
+  <p>If you connect through a VPN such as Tailscale, that service's own privacy policy applies to it. If you turn on game controllers on Windows, the free ViGEmBus driver is downloaded from its makers' GitHub page.</p>
+
+  <h2>Changes and questions</h2>
+  <p>If this ever changes, this page will say so first. Questions: see <a href="support.html">Help</a>.</p>
+  <p class="muted">Last updated: November 2026</p>
+
+  <footer>SofaSpud · <a href="support.html">Help</a> · <a href="privacy.html">Privacy</a></footer>
+</main>
+</body>
+</html>
