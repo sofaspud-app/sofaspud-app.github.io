@@ -1,9 +1,9 @@
 {
  "mac": {
-  "build": 202611201308,
-  "version": "1.0 (202611201308)",
+  "build": 202611201310,
+  "version": "1.0 (202611201310)",
   "zip": "https://github.com/sofaspud-app/sofaspud-app.github.io/releases/download/v1.0/SofaSpud-mac.zip",
-  "sha256": "a4c2f20e53122e91b85f5aae4fe5ca0a9ddb2c6eebd1067715b9dced4ecd74d7"
+  "sha256": "be3656de7967058c5105d1866a87df4272c37c57f2f73cb931d67f23043c9d57"
  },
  "windows": {
   "build": 202611201303,
