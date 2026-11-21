@@ -6,8 +6,8 @@
   "sha256": "d5ada76b2963a503b4ca9038c4e8f5ce405329278808b902e3c55800360f98d5"
  },
  "windows": {
-  "build": 202611201634,
-  "version": "1.0 (202611201634)",
+  "build": 202611202204,
+  "version": "1.0 (202611202204)",
   "exe": "https://github.com/sofaspud-app/sofaspud-app.github.io/releases/download/v1.0/SofaSpud.exe",
   "sig": "https://github.com/sofaspud-app/sofaspud-app.github.io/releases/download/v1.0/SofaSpud.exe.sig"
  }
