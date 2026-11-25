@@ -1,13 +1,13 @@
 {
  "mac": {
-  "build": 202611210951,
-  "version": "1.0 (202611210951)",
+  "build": 202611241908,
+  "version": "1.0 (202611241908)",
   "zip": "https://github.com/sofaspud-app/sofaspud-app.github.io/releases/download/v1.0/SofaSpud-mac.zip",
-  "sha256": "d0d8954daed421e4bf4fe9a8d0eb1d63a1fb780bc7a0cfb77f06e2e5fad5e815"
+  "sha256": "664b92b2d92aee61667b42de6d250e5b1521a68145dd174cc6b8f4c745a3f387"
  },
  "windows": {
-  "build": 202611210106,
-  "version": "1.0 (202611210106)",
+  "build": 202611241908,
+  "version": "1.0 (202611241908)",
   "exe": "https://github.com/sofaspud-app/sofaspud-app.github.io/releases/download/v1.0/SofaSpud.exe",
   "sig": "https://github.com/sofaspud-app/sofaspud-app.github.io/releases/download/v1.0/SofaSpud.exe.sig"
  }
